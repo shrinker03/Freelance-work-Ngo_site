@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ICA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,400i,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <link rel="stylesheet" href="/stylesheets/aos.css">
+
+    <link rel="stylesheet" href="/stylesheets/ionicons.min.css">
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/stylesheets/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="/stylesheets/flaticon.css">
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      
+    <div class="container">
+      <a class="navbar-brand" href="/">I-Clean Amravati</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+      
+      <div class="container">
+        <% if(error && error.length > 0){ %> 
+          <div class="alert alert-danger" role="alert">
+              <%= error %>
+          </div> 
+        <% } %>
+        <% if(success && success.length > 0){ %> 
+          <div class="alert alert-success" role="alert">
+              <%= success %>
+          </div>  
+        <% } %> 
+      </div>  
+      
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="/gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="/event" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- END nav -->
+          
+    
+    <div class="hero-wrap" style="background-image: url('images/a5.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Small Steps can make an big impact..</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-counter ftco-intro" id="section-counter">
+    	<div class="container">
+    		<div class="row no-gutters">
+    			<div class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 color-1 align-items-stretch">
+              <div class="text">
+              	<span>Total Events</span>
+                <strong class="number" data-number="130"></strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 color-2 align-items-stretch">
+              <div class="text">
+              	<h3 class="mb-4">Donate Money</h3>
+              	<p>Even the all-powerful Pointing has no control about the blind texts.</p>
+              	<p><a href="/contact" class="btn btn-white px-3 py-2 mt-2">Contact For Donation</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 color-3 align-items-stretch">
+              <div class="text">
+              	<h3 class="mb-4">Be a Volunteer</h3>
+              	<p>Even the all-powerful Pointing has no control about the blind texts.</p>
+              	<p><a href="/contact" class="btn btn-white px-3 py-2 mt-2">Be A Volunteer</a></p>
+              </div>
+            </div>
+          </div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row">
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 d-flex services p-3 py-4 d-block">
+              <div class="icon d-flex mb-3"><span class="flaticon-donation-1"></span></div>
+              <div class="media-body pl-4">
+                <h3 class="heading">Make Donation</h3>
+                <p>Your healing begins with charity.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 d-flex services p-3 py-4 d-block">
+              <div class="icon d-flex mb-3"><span class="flaticon-charity"></span></div>
+              <div class="media-body pl-4">
+                <h3 class="heading">Become A Volunteer</h3>
+                <p>Participate in changing the world.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 d-flex services p-3 py-4 d-block">
+              <div class="icon d-flex mb-3"><span class="flaticon-donation"></span></div>
+              <div class="media-body pl-4">
+                <h3 class="heading">Sponsorship</h3>
+                <p>Your gift will make the poor happy.</p>
+              </div>
+            </div>    
+          </div>
+        </div>
+    	</div>
+    </section>
+
+
+    <section class="ftco-section bg-light">
+    	<div class="container-fluid">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-5 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Our Causes</h2>
+            <p>Small steps further leads to the big destination.</p>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-12 ftco-animate">
+    				<div class="carousel-cause owl-carousel">
+	    				<div class="item">
+	    					<div class="cause-entry">
+		    					<a class="img" style="background-image: url(images/ica1.jpg);"></a>
+		    					<div class="text p-3 p-md-4">
+		    						<h3><a>Making Organic Colours</a></h3>
+		    						<p>This is a event regarding awareness among the folks regarding harmfull colours and making organic colour.</p>
+		    					</div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+	    					<div class="cause-entry">
+		    					<a class="img" style="background-image: url(images/ica2.jpg);"></a>
+		    					<div class="text p-3 p-md-4">
+		    						<h3><a>Varley Painting</a></h3>
+		    						<p>In this event we have managed to clean the walls of our city and paint it in varley style to beautify our city.</p>
+		    					</div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+	    					<div class="cause-entry">
+		    					<a class="img" style="background-image: url(images/ica3.jpg);"></a>
+		    					<div class="text p-3 p-md-4">
+		    						<h3><a>Cleanliness Drive</a></h3>
+		    						<p>This is the event regarding cleanliness drive among the folks of Amravati to make Amravati model city.</p>
+		              </div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+	    					<div class="cause-entry">
+		    					<a class="img" style="background-image: url(images/ica4.jpg);"></a>
+		    					<div class="text p-3 p-md-4">
+		    						<h3><a>Cleaning walls and Painting</a></h3>
+		    						<p>In this event we have managed to clean the walls of our city and paint it in varley style to beautify our city.</p>
+		    					</div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+	    					<div class="cause-entry">
+		    					<a class="img" style="background-image: url(images/ica5.jpg);"></a>
+		    					<div class="text p-3 p-md-4">
+		    						<h3><a>Cleanliness Drive</a></h3>
+		    						<p>This is the event regarding cleanliness drive among the folks of Amravati to make Amravati model city.</p>
+		    					</div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+	    					<div class="cause-entry">
+		    					<a class="img" style="background-image: url(images/ica6.jpg);"></a>
+		    					<div class="text p-3 p-md-4">
+		    						<h3><a>Cleaning pond</a></h3>
+		    						<p>In this event we have managed to clean the chatri talao pond and we also planted the trees surrounding it.</p>
+		    					</div>
+		    				</div>
+	    				</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-gallery">
+    	<div class="d-md-flex">
+	    	<a href="images/ica7.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate m-2" style="background-image: url(images/ica7.jpg);">
+	    		<div class="icon d-flex justify-content-center align-items-center">
+	    			<i class="las la-search"></i>
+	    		</div>
+	    	</a>
+	    	<a href="images/ica16.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate m-2" style="background-image: url(images/ica16.jpg);">
+	    		<div class="icon d-flex justify-content-center align-items-center">
+	    			<i class="las la-search"></i>
+	    		</div>
+	    	</a>
+	    	<a href="images/ica14.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate m-2" style="background-image: url(images/ica14.jpg);">
+	    		<div class="icon d-flex justify-content-center align-items-center">
+	    			<i class="las la-search"></i>
+	    		</div>
+	    	</a>
+	    	<a href="images/ica10.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate m-2" style="background-image: url(images/ica10.jpg);">
+	    		<div class="icon d-flex justify-content-center align-items-center">
+	    			<i class="las la-search"></i>
+	    		</div>
+	    	</a>
+    	</div>
+    	<div class="d-md-flex">
+	    	<a href="images/ica11.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate m-2" style="background-image: url(images/ica11.jpg);">
+	    		<div class="icon d-flex justify-content-center align-items-center">
+	    			<i class="las la-search"></i>
+	    		</div>
+	    	</a>
+	    	<a href="images/ica12.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate m-2" style="background-image: url(images/ica12.jpg);">
+	    		<div class="icon d-flex justify-content-center align-items-center">
+	    			<i class="las la-search"></i>
+	    		</div>
+	    	</a>
+	    	<a href="images/ica13.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate m-2" style="background-image: url(images/ica13.jpg);">
+	    		<div class="icon d-flex justify-content-center align-items-center">
+	    			<i class="las la-search"></i>
+	    		</div>
+	    	</a>
+	    	<a href="images/ica15.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate m-2" style="background-image: url(images/ica15.jpg);">
+	    		<div class="icon d-flex justify-content-center align-items-center">
+	    			<i class="las la-search"></i>
+	    		</div>
+	    	</a>
+	    </div>
+    </section>
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Our Latest Events</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="/event" class="block-20" style="background-image: url('images/ica1.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a>Mar. 01, 2020</a></div>
+                  <div><a>Admin</a></div>
+                  <div><i class="las la-comment-alt"></i> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="/event">Making Organic Colours</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="las la-clock"></i> 08:30AM-01:30PM</span> <span><i class="las la-map"></i> Venue Main Campus</span></p>
+                <p>This is a event regarding awareness among the folks regarding harmfull colours and making organic colour.</p>
+                <p><a href="/event">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="/event" class="block-20" style="background-image: url('images/ica2.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a>Mar. 19, 2020</a></div>
+                  <div><a>Admin</a></div>
+                  <div><i class="las la-comment-alt"></i> 6</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="/event">Varley Painting</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="las la-clock"></i> 08:30AM-01:30PM</span> <span><i class="las la-map"></i> Venue Main Campus</span></p>
+                <p>In this event we have managed to clean the walls of our city and paint it in varley style to beautify our city.</p>
+                <p><a href="/event">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="/event" class="block-20" style="background-image: url('images/ica3.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a>Aug. 08, 2019</a></div>
+                  <div><a>Admin</a></div>
+                  <div><i class="las la-comment-alt"></i> 9</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="/event">Cleanliness Drive</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="las la-clock"></i> 08:30AM-01:30PM</span> <span><i class="las la-map"></i> Venue Main Campus</span></p>
+                <p>This is the event regarding cleanliness drive among the folks of Amravati.</p>
+                <p><a href="/event">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);" id="volunteer_sec">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex">
+    		<div class="col-md-6 d-flex ftco-animate">
+    			<div class="img img-2 align-self-stretch" style="background-image: url(images/ica17.jpg);"></div>
+    		</div>
+    		<div class="col-md-6 volunteer pl-md-5 ftco-animate">
+    			<h3 class="mb-3">Be a volunteer</h3>
+    			<form id="contact-form" action="/contact1" class="contact-form" method="post">
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea cols="30" rows="3" class="form-control" name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+                <a class="btn btn-white py-3 px-5" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+          </form>
+    		</div>    			
+    		</div>
+    	</div>
+    </section>
+
+    <footer class="ftco-footer ftco-section img">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://twitter.com/AmravatiI"><img src="https://img.icons8.com/nolan/50/twitter.png"/></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/icleanamravati/"><img src="https://img.icons8.com/nolan/50/facebook-new.png"/></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/icleanamravati/"><img src="https://img.icons8.com/nolan/50/instagram-new.png"/></a></li>
+              </ul>
+            </div>
+          </div>
+         
+              
+          <div class="col-md-4">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Site Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="/" class="py-2 d-block">Home</a></li>
+                <li><a href="/about" class="py-2 d-block">About</a></li>
+                <li><a href="/gallery" class="py-2 d-block">Gallery</a></li>
+                <li><a href="/event" class="py-2 d-block">Events</a></li>
+                <li><a href="/contact" class="py-2 d-block">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><img src="https://img.icons8.com/nolan/30/user-location.png"/><span class="text">302 sai akshay aditya apt. sai nagar, Amravati</span></li>
+                  <li><a href="#"><img src="https://img.icons8.com/nolan/30/phone.png"/><span class="text">+91 7972723104</span></a></li>
+                  <li><a href="#"><img src="https://img.icons8.com/nolan/30/new-message.png"/><span class="text">icleanamravati@gmail.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+         
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.easing.1.3.js"></script>
+  <script src="/js/jquery.waypoints.min.js"></script>
+  <script src="/js/jquery.stellar.min.js"></script>
+  <script src="/js/owl.carousel.min.js"></script>
+  <script src="/js/jquery.magnific-popup.min.js"></script>
+  <script src="/js/aos.js"></script>
+  <script src="/js/jquery.animateNumber.min.js"></script>
+  <script src="/js/bootstrap-datepicker.js"></script>
+  <script src="/js/jquery.timepicker.min.js"></script>
+  <script src="/js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="/js/google-map.js"></script>
+  <script src="/js/main.js"></script>
+    
+  </body>
+</html>
